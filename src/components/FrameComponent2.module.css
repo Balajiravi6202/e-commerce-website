@@ -1,0 +1,82 @@
+.frameChild {
+  height: 93px;
+  flex: 1;
+  position: relative;
+  border-radius: var(--br-6xl);
+  max-width: 100%;
+  overflow: hidden;
+}
+.onlineStoreIcon {
+  height: 55px;
+  width: 52px;
+  position: absolute;
+  margin: 0 !important;
+  bottom: 16px;
+  left: calc(50% - 26px);
+  object-fit: contain;
+  z-index: 2;
+}
+.vectorParent {
+  width: 122px;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  position: relative;
+}
+.levisOfficialStore {
+  position: relative;
+  z-index: 2;
+}
+.levisOfficialStoreWrapper {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0 var(--padding-11xs) 0 var(--padding-12xs);
+}
+.brandSt {
+  position: relative;
+  font-size: var(--font-size-mini);
+  color: var(--color-darkgray-100);
+  z-index: 2;
+}
+.frameGroup {
+  align-self: stretch;
+  flex-direction: column;
+  gap: var(--gap-7xs);
+}
+.frameGroup,
+.frameParent,
+.frameWrapper {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.frameWrapper {
+  flex: 1;
+  flex-direction: column;
+  padding: var(--padding-2xs) 0 0;
+  box-sizing: border-box;
+  min-width: 146px;
+}
+.frameParent {
+  width: 385px;
+  flex-direction: row;
+  gap: var(--gap-19xl);
+  max-width: 100%;
+  text-align: left;
+  font-size: var(--font-size-5xl);
+  color: var(--color-darkslategray-400);
+  font-family: var(--font-istok-web);
+}
+@media screen and (max-width: 450px) {
+  .levisOfficialStore {
+    font-size: var(--font-size-lgi);
+  }
+  .frameParent {
+    flex-wrap: wrap;
+    gap: var(--gap-lgi);
+  }
+}

@@ -1,0 +1,301 @@
+.addBookmarkIcon {
+  height: 23px;
+  width: 59px;
+  position: relative;
+  object-fit: contain;
+  z-index: 1;
+}
+.recommendProduct {
+  position: relative;
+  font-size: inherit;
+  font-weight: 400;
+  font-family: inherit;
+  margin: 0 0 0-5px;
+}
+.actions {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  font-size: var(--font-size-xl);
+  color: var(--color-dimgray-500);
+  font-family: var(--font-inter);
+}
+.cart1 {
+  position: absolute;
+  top: 0;
+  left: 0;
+  border-radius: var(--br-xl);
+  background-color: var(--color-whitesmoke-200);
+  width: 100%;
+  height: 100%;
+  cursor: pointer;
+}
+.png1Icon {
+  height: 289px;
+  flex: 1;
+  position: relative;
+  max-width: 100%;
+  overflow: hidden;
+  object-fit: cover;
+  z-index: 1;
+}
+.saleIcon {
+  height: 55px;
+  width: 59px;
+  position: absolute;
+  margin: 0 !important;
+  top: -22px;
+  right: -15px;
+  object-fit: contain;
+  z-index: 2;
+}
+.png1Parent {
+  position: absolute;
+  top: 0;
+  left: 37px;
+  width: 211px;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.cart1Parent {
+  height: 294px;
+  flex: 1;
+  position: relative;
+}
+.carouselItemsInner {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-end;
+  padding: 0 var(--padding-xs) 0 0;
+}
+.levisTShirt {
+  position: relative;
+  display: inline-block;
+  min-width: 81px;
+}
+.levisTShirtWrapper {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0 0 0 var(--padding-12xs);
+}
+.tShirt {
+  width: 71px;
+  position: relative;
+  font-size: var(--font-size-mini);
+  color: var(--color-darkgray-300);
+  display: inline-block;
+}
+.frameGroup {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-11xs);
+}
+.from {
+  position: relative;
+  display: inline-block;
+  min-width: 29px;
+  flex-shrink: 0;
+}
+.fromWrapper {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.div {
+  margin-top: -5px;
+  flex: 1;
+  position: relative;
+  flex-shrink: 0;
+  white-space: nowrap;
+}
+.wrapper {
+  align-self: stretch;
+  height: 24px;
+  flex-direction: row;
+  justify-content: flex-start;
+  padding: 0;
+  box-sizing: border-box;
+  font-size: var(--font-size-xl);
+}
+.frameContainer,
+.frameParent,
+.wrapper {
+  display: flex;
+  align-items: flex-start;
+}
+.frameContainer {
+  width: 71px;
+  flex-direction: column;
+  justify-content: flex-start;
+  color: var(--color-darkgray-300);
+}
+.frameParent {
+  width: 262px;
+  flex-direction: row;
+  justify-content: space-between;
+  gap: var(--gap-xl);
+}
+.carouselItems,
+.productCarousel {
+  display: flex;
+  justify-content: flex-start;
+}
+.carouselItems {
+  flex: 1;
+  flex-direction: column;
+  align-items: flex-end;
+  gap: var(--gap-2xs);
+}
+.productCarousel {
+  align-self: stretch;
+  flex-direction: row;
+  align-items: flex-start;
+  padding: 0 var(--padding-5xs) 0 var(--padding-lgi);
+}
+.cart51 {
+  height: 287.8px;
+  width: 264px;
+  position: relative;
+  border-radius: var(--br-xl);
+  background-color: var(--color-whitesmoke-200);
+  display: none;
+}
+.png5Icon {
+  height: 258.4px;
+  flex: 1;
+  position: relative;
+  max-width: 100%;
+  overflow: hidden;
+  object-fit: contain;
+  z-index: 1;
+}
+.cart5 {
+  width: 264px;
+  border-radius: var(--br-xl);
+  background-color: var(--color-whitesmoke-200);
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-mini-7) var(--padding-11xl);
+  box-sizing: border-box;
+}
+.levisJacket {
+  position: relative;
+  display: inline-block;
+  min-width: 80px;
+}
+.jackets {
+  flex: 1;
+  position: relative;
+}
+.frameWrapper1,
+.jacketsWrapper,
+.levisJacketParent {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.jacketsWrapper {
+  align-self: stretch;
+  flex-direction: row;
+  padding: 0 var(--padding-5xs) 0 var(--padding-12xs);
+  font-size: var(--font-size-mini);
+  color: var(--color-darkgray-300);
+}
+.frameWrapper1,
+.levisJacketParent {
+  flex-direction: column;
+}
+.levisJacketParent {
+  align-self: stretch;
+  gap: var(--gap-11xs);
+}
+.frameWrapper1 {
+  width: 80px;
+  padding: var(--padding-9xs) 0 0;
+  box-sizing: border-box;
+}
+.div1,
+.from1 {
+  align-self: stretch;
+  position: relative;
+}
+.div1 {
+  font-size: var(--font-size-xl);
+  line-height: 22px;
+  white-space: nowrap;
+}
+.fromParent {
+  width: 71px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  color: var(--color-darkgray-300);
+}
+.frameDiv,
+.frameParent1 {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+}
+.frameParent1 {
+  flex: 1;
+  justify-content: space-between;
+  gap: var(--gap-xl);
+}
+.frameDiv {
+  align-self: stretch;
+  justify-content: flex-start;
+  padding: 0 0 0 var(--padding-sm);
+}
+.cart5Parent {
+  flex: 1;
+  flex-direction: column;
+  gap: var(--gap-7xs);
+}
+.actionsParent,
+.cart5Parent,
+.frameWrapper {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.frameWrapper {
+  align-self: stretch;
+  flex-direction: row;
+  padding: 0 0 0 var(--padding-lgi);
+}
+.actionsParent {
+  position: absolute;
+  top: 84px;
+  left: 0;
+  width: 303px;
+  flex-direction: column;
+  gap: var(--gap-10xl-8);
+  text-align: left;
+  font-size: var(--font-size-sm);
+  color: var(--color-dimgray-200);
+  font-family: var(--font-istok-web);
+}
+@media screen and (max-width: 450px) {
+  .div,
+  .div1,
+  .recommendProduct {
+    font-size: var(--font-size-base);
+  }
+  .div1 {
+    line-height: 18px;
+  }
+}

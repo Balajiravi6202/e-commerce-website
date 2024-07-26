@@ -1,0 +1,877 @@
+.cart4 {
+  align-self: stretch;
+  width: 264px;
+  position: relative;
+  border-radius: var(--br-xl);
+  background-color: var(--color-whitesmoke-200);
+  display: none;
+}
+.png4Icon {
+  height: 289px;
+  flex: 1;
+  position: relative;
+  max-width: 100%;
+  overflow: hidden;
+  object-fit: contain;
+  z-index: 1;
+}
+.cart4Parent,
+.frameWrapper {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+}
+.cart4Parent {
+  flex: 1;
+  border-radius: var(--br-xl);
+  background-color: var(--color-whitesmoke-200);
+  justify-content: flex-start;
+  padding: 0 32px var(--padding-8xs) 40px;
+}
+.frameWrapper {
+  align-self: stretch;
+  justify-content: flex-end;
+  padding: 0 var(--padding-sm) 0 0;
+}
+.levisTShirt,
+.tShirt {
+  position: relative;
+  display: inline-block;
+}
+.levisTShirt {
+  min-width: 81px;
+}
+.tShirt {
+  width: 71px;
+  font-size: var(--font-size-mini);
+  color: var(--color-darkgray-300);
+}
+.levisTShirtParent {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-7xs);
+}
+.from {
+  flex: 1;
+  position: relative;
+}
+.fromWrapper {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0 0 0 var(--padding-11xs);
+}
+.div {
+  width: 71px;
+  position: relative;
+  font-size: var(--font-size-xl);
+  display: inline-block;
+  white-space: nowrap;
+  z-index: 1;
+}
+.frameContainer,
+.frameGroup {
+  display: flex;
+  align-items: flex-start;
+}
+.frameContainer {
+  width: 73px;
+  flex-direction: column;
+  justify-content: flex-start;
+  font-size: var(--font-size-mini);
+  color: var(--color-darkgray-300);
+}
+.frameGroup {
+  width: 263px;
+  flex-direction: row;
+  justify-content: space-between;
+  gap: var(--gap-xl);
+}
+.frameParent {
+  align-self: stretch;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  justify-content: flex-start;
+  gap: var(--gap-2xs);
+}
+.cart8Icon {
+  height: 287.8px;
+  width: 264px;
+  position: relative;
+  border-radius: var(--br-xl);
+  display: none;
+}
+.png8Icon {
+  height: 239.8px;
+  flex: 1;
+  position: relative;
+  max-width: 100%;
+  overflow: hidden;
+  object-fit: contain;
+  z-index: 1;
+}
+.cart8,
+.cart8Wrapper {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+}
+.cart8 {
+  flex: 1;
+  border-radius: var(--br-xl);
+  background-color: var(--color-whitesmoke-200);
+  justify-content: flex-start;
+  padding: 33.3px var(--padding-5xl) var(--padding-mini-7) var(--padding-17xl);
+}
+.cart8Wrapper {
+  align-self: stretch;
+  justify-content: flex-end;
+  padding: 0 var(--padding-3xs) 0 0;
+}
+.levisHoodie,
+.tShirt1 {
+  position: relative;
+  display: inline-block;
+}
+.levisHoodie {
+  min-width: 84px;
+}
+.tShirt1 {
+  width: 71px;
+  font-size: var(--font-size-mini);
+  color: var(--color-darkgray-300);
+}
+.levisHoodieParent {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-7xs);
+}
+.from1 {
+  flex: 1;
+  position: relative;
+}
+.fromContainer {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0 0 0 var(--padding-11xs);
+}
+.div1 {
+  width: 71px;
+  position: relative;
+  font-size: var(--font-size-xl);
+  line-height: 22px;
+  display: inline-block;
+  white-space: nowrap;
+  z-index: 1;
+}
+.frameParent1,
+.frameParent2 {
+  display: flex;
+  align-items: flex-start;
+}
+.frameParent2 {
+  width: 73px;
+  flex-direction: column;
+  justify-content: flex-start;
+  font-size: var(--font-size-mini);
+  color: var(--color-darkgray-300);
+}
+.frameParent1 {
+  width: 263px;
+  flex-direction: row;
+  justify-content: space-between;
+  gap: var(--gap-xl);
+}
+.frameDiv,
+.productRow {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  justify-content: flex-start;
+}
+.frameDiv {
+  align-self: stretch;
+  gap: var(--gap-xs);
+}
+.productRow {
+  position: absolute;
+  top: 139px;
+  left: 879px;
+  width: 278px;
+  gap: 23.2px;
+}
+.inputbox {
+  height: 49.2px;
+  width: 529px;
+  position: relative;
+  border-radius: var(--br-11xl);
+  background-color: var(--color-whitesmoke-400);
+  display: none;
+  max-width: 100%;
+}
+.searchProduct,
+.searchongIcon {
+  position: relative;
+  flex-shrink: 0;
+  z-index: 1;
+}
+.searchongIcon {
+  height: 25.4px;
+  width: 30.7px;
+  object-fit: cover;
+}
+.searchProduct {
+  text-decoration: none;
+  align-self: stretch;
+  line-height: 20px;
+  color: inherit;
+}
+.searchPlaceholder {
+  flex: 1;
+  flex-direction: column;
+  justify-content: flex-start;
+  padding: 1.9px 0 0;
+  box-sizing: border-box;
+  min-width: 146px;
+}
+.searchIconContainer,
+.searchInput,
+.searchPlaceholder {
+  display: flex;
+  align-items: flex-start;
+}
+.searchIconContainer {
+  align-self: stretch;
+  flex-direction: row;
+  justify-content: flex-start;
+  gap: 38.8px;
+}
+.searchInput {
+  width: 294.1px;
+  flex-direction: column;
+  justify-content: flex-end;
+  padding: 0 0 3.1px;
+  box-sizing: border-box;
+}
+.camerapngIcon {
+  height: 32.5px;
+  width: 39.3px;
+  position: relative;
+  object-fit: contain;
+  z-index: 1;
+}
+.searchbar,
+.searchbarWrapper {
+  display: flex;
+  flex-direction: row;
+  box-sizing: border-box;
+  max-width: 100%;
+}
+.searchbar {
+  flex: 1;
+  border-radius: var(--br-11xl);
+  background-color: var(--color-whitesmoke-400);
+  align-items: flex-end;
+  justify-content: space-between;
+  padding: 8.7px var(--padding-xl) var(--padding-5xs) var(--padding-6xl);
+  gap: var(--gap-xl);
+}
+.searchbarWrapper {
+  align-self: stretch;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0 26px 0 var(--padding-3xl);
+}
+.cart2 {
+  height: 294px;
+  width: 264px;
+  position: relative;
+  border-radius: var(--br-xl);
+  background-color: var(--color-whitesmoke-200);
+  display: none;
+}
+.png2Icon {
+  height: 260px;
+  width: 260px;
+  position: relative;
+  object-fit: contain;
+  z-index: 1;
+}
+.cart2Parent,
+.frameWrapper1 {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+}
+.cart2Parent {
+  flex: 1;
+  border-radius: var(--br-xl);
+  background-color: var(--color-whitesmoke-200);
+  justify-content: flex-start;
+  padding: var(--padding-sm) var(--padding-9xs) var(--padding-xl) 0;
+}
+.frameWrapper1 {
+  align-self: stretch;
+  justify-content: flex-end;
+  padding: 0 var(--padding-5xs) 0 0;
+}
+.adidasOriginal {
+  position: relative;
+  display: inline-block;
+  min-width: 94px;
+}
+.adidasOriginalWrapper {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0 0 0 var(--padding-12xs);
+}
+.shoes {
+  width: 71px;
+  position: relative;
+  font-size: var(--font-size-mini);
+  color: var(--color-darkgray-300);
+  display: inline-block;
+  z-index: 1;
+}
+.frameParent6 {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.from2 {
+  position: relative;
+  display: inline-block;
+  min-width: 29px;
+  flex-shrink: 0;
+}
+.fromFrame {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0 var(--padding-9xs);
+}
+.div2 {
+  margin-top: -4px;
+  flex: 1;
+  position: relative;
+  flex-shrink: 0;
+  white-space: nowrap;
+  z-index: 1;
+}
+.wrapper {
+  align-self: stretch;
+  height: 25px;
+  flex-direction: row;
+  justify-content: flex-start;
+  padding: 0;
+  box-sizing: border-box;
+  font-size: var(--font-size-xl);
+}
+.frameParent5,
+.frameParent7,
+.wrapper {
+  display: flex;
+  align-items: flex-start;
+}
+.frameParent7 {
+  width: 71px;
+  flex-direction: column;
+  justify-content: flex-start;
+  color: var(--color-darkgray-300);
+}
+.frameParent5 {
+  width: 258px;
+  flex-direction: row;
+  justify-content: space-between;
+  gap: var(--gap-xl);
+}
+.frameParent4 {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  justify-content: flex-start;
+  gap: var(--gap-2xs);
+  min-width: 177px;
+}
+.cart3 {
+  height: 294px;
+  width: 264px;
+  position: relative;
+  border-radius: var(--br-xl);
+  background-color: var(--color-whitesmoke-200);
+  display: none;
+}
+.png3Icon {
+  height: 218px;
+  flex: 1;
+  position: relative;
+  max-width: 100%;
+  overflow: hidden;
+  object-fit: contain;
+  z-index: 1;
+}
+.background,
+.container {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+}
+.background {
+  flex: 1;
+  border-radius: var(--br-xl);
+  background-color: var(--color-whitesmoke-200);
+  justify-content: flex-start;
+  padding: var(--padding-19xl) var(--padding-15xl);
+}
+.container {
+  align-self: stretch;
+  justify-content: flex-end;
+  padding: 0 var(--padding-xs) 0 0;
+}
+.palmAngels {
+  position: relative;
+  display: inline-block;
+  min-width: 78px;
+}
+.jackets {
+  flex: 1;
+  position: relative;
+}
+.details,
+.type {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.type {
+  align-self: stretch;
+  flex-direction: row;
+  padding: 0 var(--padding-7xs) 0 var(--padding-12xs);
+  font-size: var(--font-size-mini);
+  color: var(--color-darkgray-300);
+}
+.details {
+  width: 78px;
+  flex-direction: column;
+  gap: var(--gap-11xs);
+}
+.from4 {
+  position: relative;
+  display: inline-block;
+  min-width: 29px;
+  flex-shrink: 0;
+}
+.from3 {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.amount {
+  margin-top: -3px;
+  flex: 1;
+  position: relative;
+  line-height: 22px;
+  flex-shrink: 0;
+  white-space: nowrap;
+  z-index: 1;
+}
+.value {
+  align-self: stretch;
+  height: 19px;
+  flex-direction: row;
+  justify-content: flex-start;
+  padding: 0;
+  box-sizing: border-box;
+  font-size: var(--font-size-xl);
+}
+.info,
+.price,
+.value {
+  display: flex;
+  align-items: flex-start;
+}
+.price {
+  width: 71px;
+  flex-direction: column;
+  justify-content: flex-start;
+  color: var(--color-darkgray-300);
+}
+.info {
+  width: 261px;
+  flex-direction: row;
+  justify-content: space-between;
+  gap: var(--gap-xl);
+}
+.imageProduct {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  justify-content: flex-start;
+  gap: var(--gap-2xs);
+  min-width: 179px;
+}
+.frameParent3,
+.recommendationGridInner {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  max-width: 100%;
+}
+.frameParent3 {
+  flex: 1;
+  flex-wrap: wrap;
+  justify-content: flex-start;
+  gap: var(--gap-xs);
+}
+.recommendationGridInner {
+  width: 566px;
+  justify-content: flex-end;
+  padding: 0 3px;
+  box-sizing: border-box;
+}
+.cart6Icon {
+  position: absolute;
+  top: 12.4px;
+  left: 10px;
+  border-radius: var(--br-xl);
+  width: 264px;
+  height: 287.8px;
+}
+.png6Icon,
+.saleIcon {
+  position: absolute;
+  top: 57.4px;
+  left: 0;
+  width: 304px;
+  height: 196.8px;
+  object-fit: cover;
+  z-index: 1;
+}
+.saleIcon {
+  top: 0;
+  left: 227px;
+  width: 59px;
+  height: 53.8px;
+  object-fit: contain;
+}
+.icon {
+  width: 100%;
+}
+.cart6,
+.cart7Icon,
+.icon {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 100%;
+}
+.cart6 {
+  bottom: 0;
+  width: 304px;
+}
+.cart7Icon {
+  border-radius: var(--br-xl);
+  width: 100%;
+  display: none;
+}
+.png7Icon {
+  position: absolute;
+  top: 17.6px;
+  left: 56px;
+  width: 173px;
+  height: 247.7px;
+  object-fit: contain;
+  z-index: 1;
+}
+.cart7 {
+  position: absolute;
+  top: 12.4px;
+  left: 298px;
+  border-radius: var(--br-xl);
+  background-color: var(--color-whitesmoke-200);
+  width: 264px;
+  height: 287.8px;
+  z-index: 2;
+}
+.item {
+  height: 300.2px;
+  flex: 1;
+  position: relative;
+  max-width: 100%;
+}
+.action {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-end;
+  padding: 0 var(--padding-mini) 0 0;
+  box-sizing: border-box;
+  max-width: 100%;
+}
+.adidasOriginal1 {
+  position: relative;
+  display: inline-block;
+  min-width: 94px;
+}
+.name {
+  width: 126.4px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0 var(--padding-xl) 0 0;
+  box-sizing: border-box;
+}
+.from5,
+.levisTShirt1 {
+  position: relative;
+  display: inline-block;
+}
+.from5 {
+  color: var(--color-darkgray-300);
+  min-width: 29px;
+}
+.levisTShirt1 {
+  min-width: 81px;
+}
+.name1 {
+  width: 126.4px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0 var(--padding-xl) 0 0;
+  box-sizing: border-box;
+}
+.from6 {
+  width: 71px;
+  position: relative;
+  font-size: var(--font-size-mini);
+  color: var(--color-darkgray-300);
+  display: inline-block;
+  flex-shrink: 0;
+}
+.brandProduct,
+.combinedName {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  max-width: 100%;
+}
+.combinedName {
+  flex: 1;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  gap: var(--gap-xl);
+}
+.brandProduct {
+  align-self: stretch;
+  justify-content: flex-start;
+  padding: 0 0 0 var(--padding-12xs);
+  box-sizing: border-box;
+}
+.shoes1 {
+  width: 71px;
+  position: relative;
+  display: inline-block;
+  z-index: 1;
+}
+.shoesCategory {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-11xs) var(--padding-xl) 0 0;
+  box-sizing: border-box;
+  min-width: 103px;
+}
+.amountShoes {
+  font-size: var(--font-size-xl);
+  line-height: 22px;
+  flex-shrink: 0;
+  white-space: nowrap;
+  z-index: 1;
+}
+.amountShoes,
+.tShirt2 {
+  width: 71px;
+  position: relative;
+  display: inline-block;
+}
+.shirtCategory {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-5xs) var(--padding-xl) 0 0;
+  box-sizing: border-box;
+  min-width: 105px;
+}
+.valueShirt {
+  align-self: stretch;
+  position: relative;
+  line-height: 22px;
+  white-space: nowrap;
+  z-index: 1;
+}
+.amountShirt {
+  width: 71px;
+  flex-direction: column;
+  padding: var(--padding-9xs) 0 0;
+  box-sizing: border-box;
+  font-size: var(--font-size-xl);
+}
+.amountShirt,
+.categoryAndPrice,
+.productInfo {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.categoryAndPrice {
+  align-self: stretch;
+  flex-direction: row;
+  gap: var(--gap-9xl);
+  margin-top: -4px;
+  font-size: var(--font-size-mini);
+  color: var(--color-darkgray-300);
+}
+.productInfo {
+  width: 549px;
+  flex-direction: column;
+  max-width: 100%;
+}
+.footer1 {
+  align-self: stretch;
+  align-items: flex-end;
+  gap: var(--gap-xs);
+}
+.footer,
+.footer1,
+.recommendationGrid {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  max-width: 100%;
+}
+.recommendationGrid {
+  align-self: stretch;
+  align-items: flex-end;
+  gap: 14.8px;
+  font-size: var(--font-size-sm);
+  color: var(--color-dimgray-200);
+  font-family: var(--font-istok-web);
+}
+.footer {
+  position: absolute;
+  top: 0;
+  left: 297px;
+  width: 577px;
+  align-items: flex-start;
+  gap: 89.8px;
+  font-size: var(--font-size-xl);
+  color: rgba(0, 0, 0, 0.5);
+  font-family: var(--font-inter);
+}
+.productGrid {
+  height: 866px;
+  width: 1157px;
+  position: relative;
+  max-width: 100%;
+  text-align: left;
+  font-size: var(--font-size-sm);
+  color: var(--color-dimgray-200);
+  font-family: var(--font-istok-web);
+}
+.content,
+.homepage {
+  display: flex;
+  align-items: flex-start;
+  box-sizing: border-box;
+}
+.content {
+  align-self: stretch;
+  flex-direction: row;
+  justify-content: center;
+  padding: 0 var(--padding-10xl) 0 var(--padding-xl);
+  max-width: 100%;
+}
+.homepage {
+  width: 100%;
+  position: relative;
+  background-color: var(--color-white);
+  overflow: hidden;
+  flex-direction: column;
+  justify-content: flex-start;
+  padding: 0 0 var(--padding-16xl);
+  gap: 40.7px;
+  line-height: normal;
+  letter-spacing: normal;
+}
+@media screen and (max-width: 750px) {
+  .searchbar {
+    flex-wrap: wrap;
+  }
+  .background,
+  .cart2Parent,
+  .shirtCategory,
+  .shoesCategory {
+    flex: 1;
+  }
+  .categoryAndPrice {
+    flex-wrap: wrap;
+  }
+  .productGrid {
+    height: auto;
+    min-height: 866;
+  }
+  .homepage {
+    gap: var(--gap-xl);
+  }
+}
+@media screen and (max-width: 450px) {
+  .div,
+  .div1,
+  .searchProduct {
+    font-size: var(--font-size-base);
+  }
+  .div1,
+  .searchProduct {
+    line-height: 18px;
+  }
+  .searchProduct {
+    line-height: 16px;
+  }
+  .searchIconContainer {
+    flex-wrap: wrap;
+  }
+  .div2 {
+    font-size: var(--font-size-base);
+  }
+  .amount,
+  .amountShoes,
+  .valueShirt {
+    font-size: var(--font-size-base);
+    line-height: 18px;
+  }
+}

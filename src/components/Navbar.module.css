@@ -1,0 +1,130 @@
+.navbarChild {
+  height: 82.3px;
+  width: 1440px;
+  position: relative;
+  background-color: var(--color-gray);
+  display: none;
+  max-width: 100%;
+}
+.levisIcon {
+  width: 96px;
+  flex: 1;
+  position: relative;
+  max-height: 100%;
+  object-fit: cover;
+  z-index: 1;
+}
+.levisWrapper {
+  height: 52.5px;
+  width: 156px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.about,
+.products {
+  text-decoration: none;
+  position: relative;
+  line-height: 14.2px;
+  color: inherit;
+  z-index: 1;
+}
+.about {
+  width: 63px;
+  display: inline-block;
+  flex-shrink: 0;
+}
+.products {
+  flex: 1;
+}
+.aboutProductsTitle,
+.aboutProductsTitleWrapper {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.aboutProductsTitle {
+  align-self: stretch;
+  flex: 1;
+  flex-direction: row;
+  gap: var(--gap-7xs);
+}
+.aboutProductsTitleWrapper {
+  height: 35px;
+  width: 168px;
+  flex-direction: column;
+  padding: var(--padding-xl-3) 0 0;
+  box-sizing: border-box;
+}
+.category {
+  text-decoration: none;
+  align-self: stretch;
+  position: relative;
+  line-height: 14.2px;
+  color: inherit;
+  z-index: 1;
+}
+.categoryWrapper {
+  width: 98px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-xl-8) 0 0;
+  box-sizing: border-box;
+}
+.todayDeal {
+  text-decoration: none;
+  width: 164px;
+  position: relative;
+  line-height: 14.2px;
+  color: inherit;
+  display: inline-block;
+  z-index: 2;
+}
+.todayDealWrapper {
+  width: 659px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-xl-3) var(--padding-xl) 0 0;
+  box-sizing: border-box;
+  max-width: 100%;
+  color: var(--color-crimson);
+}
+.notificationIcon {
+  width: 37px;
+  height: 15.1px;
+  position: relative;
+  object-fit: cover;
+  z-index: 1;
+}
+.navbar,
+.notificationWrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-lg-5) 0 0;
+}
+.navbar {
+  align-self: stretch;
+  background-color: var(--color-gray);
+  flex-direction: row;
+  justify-content: center;
+  padding: var(--padding-lgi-5) var(--padding-xl) var(--padding-2xs-3);
+  box-sizing: border-box;
+  row-gap: 20px;
+  max-width: 100%;
+  text-align: left;
+  font-size: var(--font-size-base);
+  color: var(--color-white);
+  font-family: var(--font-istok-web);
+}
+@media screen and (max-width: 1100px) {
+  .navbar {
+    flex-wrap: wrap;
+  }
+}

@@ -1,0 +1,300 @@
+.cardcomponentChild,
+.frameChild {
+  position: relative;
+  display: none;
+  max-width: 100%;
+}
+.cardcomponentChild {
+  height: 258px;
+  width: 960px;
+  border-radius: var(--br-8xs);
+  background-color: var(--color-whitesmoke-600);
+}
+.frameChild {
+  align-self: stretch;
+  width: 330.9px;
+  border-radius: var(--br-6xl);
+  background-color: var(--color-whitesmoke-500);
+}
+.pngIcon {
+  height: 238.2px;
+  width: 254.3px;
+  position: relative;
+  object-fit: cover;
+  z-index: 2;
+}
+.rectangleParent {
+  width: 330.9px;
+  border-radius: var(--br-6xl);
+  background-color: var(--color-whitesmoke-500);
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0 var(--padding-10xl);
+  box-sizing: border-box;
+  min-width: 330.9px;
+  max-width: 100%;
+  z-index: 1;
+}
+.loveCircledIcon {
+  height: 32px;
+  width: 25px;
+  position: relative;
+  object-fit: cover;
+  z-index: 1;
+}
+.loveCircledWrapper {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-end;
+  padding: 0 var(--padding-lgi);
+}
+.levisTShirts {
+  margin: 0;
+  flex: 1;
+  position: relative;
+  font-size: inherit;
+  font-weight: 700;
+  font-family: inherit;
+  display: inline-block;
+  max-width: 100%;
+  z-index: 1;
+}
+.levisTShirtsWrapper {
+  width: 523px;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0 var(--padding-29xl);
+  box-sizing: border-box;
+  max-width: 100%;
+  color: var(--color-darkslategray-200);
+}
+.from30 {
+  flex: 1;
+  position: relative;
+  z-index: 1;
+}
+.tshirtType {
+  width: 371px;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0 var(--padding-29xl) var(--padding-mini);
+  box-sizing: border-box;
+  max-width: 100%;
+  font-size: var(--font-size-base);
+}
+.frameItem {
+  align-self: stretch;
+  flex: 1;
+  position: relative;
+  background-color: var(--color-gainsboro);
+  max-width: 100%;
+  z-index: 1;
+}
+.productTitleInner {
+  width: 365px;
+  height: 7px;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0 0 var(--padding-8xs);
+  box-sizing: border-box;
+  max-width: 100%;
+}
+.rating {
+  align-self: stretch;
+  height: 27px;
+  position: relative;
+  display: inline-block;
+  flex-shrink: 0;
+  z-index: 1;
+}
+.ratingWrapper {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-3xs) 0 0;
+}
+.starFilledIcon {
+  width: 36px;
+  height: 36px;
+  position: relative;
+  object-fit: cover;
+  z-index: 1;
+}
+.stars {
+  width: 48px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0 var(--padding-xs) 0 0;
+  box-sizing: border-box;
+}
+.starFilledIcon1 {
+  width: 36px;
+  height: 36px;
+  position: relative;
+  object-fit: cover;
+  z-index: 1;
+}
+.stars1 {
+  width: 48px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0 var(--padding-xs) 0 0;
+  box-sizing: border-box;
+}
+.starFilledIcon2 {
+  height: 36px;
+  width: 36px;
+  position: relative;
+  object-fit: contain;
+  z-index: 1;
+}
+.starContainer {
+  width: 184px;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.buyBtnChild {
+  height: 52px;
+  width: 178px;
+  position: relative;
+  border-radius: var(--br-6xl);
+  background-color: var(--color-midnightblue);
+  display: none;
+}
+.buy {
+  position: relative;
+  display: inline-block;
+  min-width: 41px;
+  z-index: 1;
+}
+.buyBtn,
+.buyBtnWrapper {
+  display: flex;
+  align-items: flex-start;
+}
+.buyBtn {
+  border-radius: var(--br-6xl);
+  background-color: var(--color-midnightblue);
+  flex-direction: row;
+  justify-content: flex-start;
+  padding: var(--padding-2xs) var(--padding-48xl) var(--padding-7xs);
+  z-index: 2;
+}
+.buyBtnWrapper {
+  flex-direction: column;
+  justify-content: flex-end;
+  padding: 0 0 var(--padding-xs);
+  font-size: var(--font-size-5xl);
+  color: var(--color-white);
+}
+.ratingContent {
+  width: 453px;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-end;
+  justify-content: space-between;
+  gap: var(--gap-xl);
+  max-width: 100%;
+}
+.productTitle,
+.starRating {
+  align-self: stretch;
+  align-items: flex-start;
+}
+.starRating {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+  max-width: 100%;
+  font-size: var(--font-size-mini);
+}
+.productTitle {
+  flex-direction: column;
+  gap: var(--gap-6xs);
+}
+.cardcomponent,
+.productInfo,
+.productTitle {
+  display: flex;
+  justify-content: flex-start;
+  max-width: 100%;
+}
+.productInfo {
+  flex: 1;
+  flex-direction: column;
+  align-items: flex-end;
+  gap: var(--gap-lg);
+  min-width: 353px;
+}
+.cardcomponent {
+  align-self: stretch;
+  border-radius: var(--br-8xs);
+  background-color: var(--color-whitesmoke-600);
+  flex-direction: row;
+  align-items: flex-start;
+  padding: var(--padding-2xs-7) var(--padding-2xs) var(--padding-3xs-1);
+  box-sizing: border-box;
+  gap: var(--gap-39xl-9);
+  text-align: left;
+  font-size: var(--font-size-17xl);
+  color: var(--color-dimgray-300);
+  font-family: var(--font-istok-web);
+}
+@media screen and (max-width: 1025px) {
+  .pngIcon,
+  .rectangleParent {
+    flex: 1;
+  }
+  .levisTShirts {
+    font-size: var(--font-size-10xl);
+  }
+  .cardcomponent {
+    flex-wrap: wrap;
+  }
+}
+@media screen and (max-width: 750px) {
+  .levisTShirtsWrapper {
+    padding-left: var(--padding-5xl);
+    padding-right: var(--padding-5xl);
+    box-sizing: border-box;
+  }
+  .cardcomponent {
+    gap: var(--gap-10xl);
+  }
+}
+@media screen and (max-width: 450px) {
+  .levisTShirts {
+    font-size: var(--font-size-3xl);
+  }
+  .tshirtType {
+    padding-left: var(--padding-xl);
+    padding-right: var(--padding-xl);
+    box-sizing: border-box;
+  }
+  .buy {
+    font-size: var(--font-size-lgi);
+  }
+  .ratingContent {
+    flex-wrap: wrap;
+  }
+  .productInfo {
+    min-width: 100%;
+  }
+}
